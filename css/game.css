@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-size: 26px;
+    font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
+    color:firebrick;
+    background-color: rgb(233, 191, 181);
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 67, 255);
+}
+header{
+    font-weight: 700;
+    width: 100%;
+    z-index: 3;
+}
+header .hidden{
+    font-size: 2px;
+}
+header .container{
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
+}
+header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+header .logo{
+    font-size: 24px;
+}
+header ul{
+    display: flex;
+    list-style:none;
+}
+header ul li{
+    margin-left: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+} 
+.series{
+    padding-top: 33px;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+.gamelogo{
+    max-height:800px;
+    height: auto;
+    width: 94vw;
+    margin: auto;
+    display: block;
+}
+
+.smalllogo{
+    width: 16px;
+    height: 16px;
+}
+.twitter{
+    color:rgb(102, 174, 187);
+    text-decoration: none;
+}
+.youtube{
+    color:red;
+    text-decoration: none;
+}
+.twitch{
+    color:purple;
+    text-decoration: none;
+}
+.archive{
+    color:bisque;
+    background-color:rgb(159, 159, 206);
+    padding:30px;
+    padding-top:20px;
+    padding-bottom:35px;
+    border-radius:45px;
+    margin-bottom:40px;
+}
+h3{
+    padding-left: 30px;
+}
+hr{
+    border: solid 3px #8c61a5;
+}
+
+.section1{
+    padding-top: 45px;
+    margin-bottom: 60px;
+    font-size:24px;
+}
+.section1 .container{
+    max-width: 1680px;
+    width:85vw;
+    margin: 0 auto;
+}
+.section1 .row{
+
+}
+.section1 .col{
+    
+}
+.section3{
+    padding-top: 45px;
+    margin-bottom: 60px;
+    font-size:24px;
+}
+.section3 .container{
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+.section3 .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.section3 .col{
+    width: 44%;
+}
+
+
+table{
+    width:100%;
+    margin-top:30px;
+    text-align:center;
+    border-collapse: collapse;
+    border: solid 2px pink;
+}
+table th, table td {
+    border: dashed 1px pink;
+  }
+table th {
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    background:#d35959
+}
+table td {
+    padding: 12px 10px;
+    color:rgb(201, 47, 47);
+    background: #ebebeb;
+}
+.oni-img{
+    width: 28vw;
+    height: auto;
+}
+
+
+
+
+
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    line-height: 1;
+    z-index: 99;
+  }
+  #page-top a {
+    background: #ab101b;
+    text-decoration: none;
+    color: #fff;
+    width: 60px;
+    padding: 28px 5px;
+    text-align: center;
+    display: block;
+    border-radius: 90px;
+    opacity: 0.9;
+    transition: all .3s ease;
+  }
+  #page-top a:hover {
+    text-decoration: none;
+    opacity: .5;
+  }

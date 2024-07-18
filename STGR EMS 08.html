@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>ももみ</title>
+    <meta charset="utf-8">
+    <meta name="description"content="自分が作成したもののまとめ">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/STGR.jpg">
+    <meta name="robots" content="noindex">
+    <meta name="format-detection" content="email=no,telephone=no,address=no">
+    <link rel="stylesheet" type="text/css" href="css/STGR.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script language="javascript" type="text/javascript">
+        // 読込
+        function load() {
+        if(!localStorage.getItem('mydata')) {
+        alert("保存データはありません");
+        } else {
+        mydata = localStorage.getItem('mydata');
+        document.getElementById("mydata_in").value = mydata;
+        }
+        }
+        // 保存
+        function save() {
+        var mydata = document.getElementById("mydata_in").value;
+        localStorage.setItem('mydata', mydata);
+        }
+        // 確認
+        function view() {
+        if(!localStorage.getItem('mydata')) {
+        alert("保存データはありません");
+        } else {
+        mydata = localStorage.getItem('mydata');
+        document.getElementById("mydata_out").innerText = mydata;
+        }
+        }
+    </script>
+</head>
+<body onload="load()">
+    <header>
+        
+        <div class="hidden"><a href="xs personal.html">-</a></div>
+
+        <div class="container">
+            <div class="row">
+                <a href="./index.html" class="logo">My site</a>
+                <ul>
+                    <li class="header-list"><a href="#EMS">概要</a></li>
+                    <li class="header-list"><a href="#SGPD">拠点</a></li>
+                    <li class="header-list"><a href="#MOZU">アーカイブ</a></li>
+                    <li class="header-list"><a href="#Todo">切り抜き</a></li>
+                    <li class="header-list"><a href="#question" >外コラボ</a></li>
+                </ul>
+            </div>
+        </div> 
+    </header>
+
+    <img src="img/STGR/EMS/STGR EMS 08-001.jpg" class="stgrtop">
+    <img src="img/STGR/EMS/STGR EMS 08-002.jpg" class="stgrchara">
+    <main>
+        <table><!--プロフィール-->
+            <tr><!--名前-->
+                <th>名前</th>
+                <td>ももみ マルフォイ</td>
+            </tr>
+            <tr><!--誕生日-->
+                <th>誕生日</th>
+                <td>2011/10/02</td>
+            </tr>
+            <tr><!--職業-->
+                <th>職業</th>
+                <td>救急隊 医局長<br>不動産<br>ToY 店員</td>
+            </tr>
+            <tr><!--プレイヤー-->
+                <th>プレイヤー</th>
+                <td>小花衣 ももみ</td>
+            </tr>
+            <tr><!--SNS-->
+                <th>SNS</th>
+                <td><img src="img/twitter.png" class="smalllogo"><a href="https://x.com/momomi_khni" class="twitter">Twitter</a>
+                <br><img src="img/Youtube.png" class="smalllogo"><a href="https://www.youtube.com/@momomi5871" class="youtube">Youtube</a>
+                <br><img src="img/Twitch.png" class="smalllogo"><a href="https://www.twitch.tv/momomi5871" class="twitch">Twitch</a>
+                </td>
+            </tr>
+            <tr><!--別キャラ-->
+                <th>別キャラ</th>
+                <td>小花衣 早苗</td>
+            </tr>
+        </table>
+        
+        <section class="section3">
+            <div class="container">
+                <div class="row" id="EMS"><!--概要-->
+                    <div classs="col">
+                        <h2>概要</h2>
+                        <hr>
+                        <p class="text">ストグラの救急隊について。<br>member:命田守、橘かげまる、神崎治、 天羽よつは、伊藤カテジ、サンクチュアリたえこ、ウィルナイアー、ももみ、フランシスコマグナム、鳥野ぎん、雷堂ましろ、石定シソジ<br>ノビーラング、世風天みにゃ、朱雀愛未、ナイチンガール<br>ヘスティアゴデス、キラメキーラ、赤兎がみとも、箱根しおん、ジョンドングリ、吉田ユッカ、加賀イズミ、椎名苺、りゅーぷ、澄乃ミレイ、葉風邪ナイ、切間てつお、星野ももあ、元難波芽久未、宮脇悠吾、イナイロハ、伊豆院登、亜座嵐りか。<br>ロスサントスで一番平和(勝手に)で仲良しなみんなのことをまとめる場所です。</p>
+                    </div>
+                    <div classs="col">
+                        <img src="img/BGmysite.jpg" width="100%" alt="picture">
+                    </div>
+                </div>
+                <div class="row" id="SGPD"><!--拠点-->
+                    <div classs="col">
+                        <h2>拠点</h2>
+                        <hr>
+                        <p class="text">ストグラの救急隊について。<br>member:命田守、橘かげまる、神崎治、 天羽よつは、伊藤カテジ、サンクチュアリたえこ、ウィルナイアー、ももみ、フランシスコマグナム、鳥野ぎん、雷堂ましろ、石定シソジ<br>ノビーラング、世風天みにゃ、朱雀愛未、ナイチンガール<br>ヘスティアゴデス、キラメキーラ、赤兎がみとも、箱根しおん、ジョンドングリ、吉田ユッカ、加賀イズミ、椎名苺、りゅーぷ、澄乃ミレイ、葉風邪ナイ、切間てつお、星野ももあ、元難波芽久未、宮脇悠吾、イナイロハ、伊豆院登、亜座嵐りか。<br>ロスサントスで一番平和(勝手に)で仲良しなみんなのことをまとめる場所です。</p>
+                    </div>
+                    <div classs="col">
+                        <img src="img/BGmysite.jpg" width="100%" alt="picture">
+                    </div>
+                </div>
+
+                <div class="archive" id="MOZU"><!--アーカイブ保存設定-->
+                    <h2>アーカイブ履歴</h2>
+                    <textarea name="mydata_in" id="mydata_in" cols=40 rows=4>Day.0 00:00:00</textarea>
+                    <br>
+                    <input type="button" value="保存" onclick="save();" >
+                    localStrageに保存します<br ><br>
+
+                    <input type="button" value="保存確認" onclick="view();" >
+                    <span id="mydata_out"></span>
+                </div>
+                
+        <table><!--アーカイブ-->
+            <h2>配信アーカイブ</h2>
+            <tr><!--0-->
+                <th>Day</th>
+                <td>日付</td>
+                <td>タイトル</td>
+            </tr>
+            <div><!--1-10-->
+                <tr><!--1-->
+                    <th>Day.1</th>
+                    <td>2022/08/28</td>
+                    <td><a href="https://www.youtube.com/watch?v=IDC10BnK6as">始動！</td>
+                </tr>
+                <tr><!--2-->
+                    <th>Day.2</th>
+                    <td>2022/09/01</td>
+                    <td><a href="https://www.youtube.com/watch?v=1VwjjtpG60k">初日から久々のログインです</td>
+                </tr>
+                <tr><!--3-->
+                    <th>Day.3</th>
+                    <td>2022/09/07</td>
+                    <td><a href="https://www.youtube.com/watch?v=q9PZG9H7gF8">マルフォイ、就職したい</td>
+                </tr>
+                <tr><!--4-->
+                    <th>Day.4</th>
+                    <td>2022/09/08</td>
+                    <td><a href="https://www.youtube.com/watch?v=V8Ji4I-UDpQ&t=9923s">2つの人生の両立はむつかしい</td>
+                </tr>
+                <tr><!--5-->
+                    <th>Day.5</th>
+                    <td>2022/09/09</td>
+                    <td><a href="https://www.youtube.com/watch?v=H2SEARFS9oE">病院の改修とかあるかな？！</td>
+                </tr>
+                <tr><!--6-->
+                    <th>Day.6</th>
+                    <td>2022/09/10</td>
+                    <td><a href="https://www.youtube.com/watch?v=E7v2N1GcAHY">俺はよつは先輩の味方だよ！</td>
+                </tr>
+                <tr><!--7-->
+                    <th>Day.7</th>
+                    <td>2022/09/11</td>
+                    <td><a href="https://www.youtube.com/watch?v=k_3qVPttU_g">	エオルゼアから逃げてきました！</td>
+                </tr>
+                <tr><!--8-->
+                    <th>Day.8</th>
+                    <td>2022/09/12</td>
+                    <td><a href="https://www.youtube.com/watch?v=oScRH6tNz7Q&t=6208s">こんな時間からでも生活する</td>
+                </tr>
+                <tr><!--9-->
+                    <th>Day.9</th>
+                    <td>2022/09/13</td>
+                    <td><a href="https://www.youtube.com/watch?v=jXKBBxQGM7c">ドラコおかえり！</td>
+                </tr>
+                <tr><!--10-->
+                    <th>Day.10</th>
+                    <td>2022/09/14</td>
+                    <td><a href="https://www.youtube.com/watch?v=kqvzH5qyzOA">今日も平和だといいね</td>
+                </tr>
+            </div>
+            <div><!--11-20-->
+                <tr><!--11-->
+                    <th>Day.11</th>
+                    <td>2022/08/28</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--12-->
+                    <th>Day.12</th>
+                    <td>2022/08/30</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--13-->
+                    <th>Day.13</th>
+                    <td>2022/09/02</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--14-->
+                    <th>Day.14</th>
+                    <td>2022/09/01</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--15-->
+                    <th>Day.15</th>
+                    <td>2022/09/02</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--16-->
+                    <th>Day.16</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--17-->
+                    <th>Day.17</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--18-->
+                    <th>Day.18</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--19-->
+                    <th>Day.19</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">イトル</td>
+                </tr>
+                <tr><!--20-->
+                    <th>Day.20</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+            </div>
+            <div><!--21-30-->
+                <tr><!--21-->
+                    <th>Day.21</th>
+                    <td>2022/08/28</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--22-->
+                    <th>Day.22</th>
+                    <td>2022/08/30</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--23-->
+                    <th>Day.23</th>
+                    <td>2022/09/02</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--24-->
+                    <th>Day.24</th>
+                    <td>2022/09/01</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--25-->
+                    <th>Day.25</th>
+                    <td>2022/09/02</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--26-->
+                    <th>Day.26</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--27-->
+                    <th>Day.27</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--28-->
+                    <th>Day.28</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--29-->
+                    <th>Day.29</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">イトル</td>
+                </tr>
+                <tr><!--30-->
+                    <th>Day.30</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+            </div>
+        </table>
+
+        <table><!--切り抜き-->
+            <h2><div class="Todo" id="Todo"></div>切り抜き</h2>
+            <tr><!--0-->
+                    <th>タイトル</th>
+                    <td>サムネイル</td>
+            </tr>
+            <div><!--1-10-->
+                    <tr><!--1-->
+                        <th><a href="https://www.youtube.com/watch?v=5TEcChopS1M">ウィルを尊敬するようになるきっかけ事件</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-003.jpg"></td>
+                    </tr>
+                    <tr><!--2-->
+                        <th><a href="https://www.youtube.com/watch?v=_Y5mBOY0K70">♪カテジへの ももみマルフォイver</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-004.jpg"></td>
+                    </tr>
+                    <tr><!--3-->
+                        <th><a href="https://www.youtube.com/watch?v=Oz4CsoJ5TuM">♪緑のテーマ ももみ＆マクレーン</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-005.jpg"></td>
+                    </tr>
+                    <tr><!--4-->
+                        <th><a href="https://www.youtube.com/watch?v=-C4vkDrcGjw">ももみどんぶらこ事件</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-006.jpg"></td>
+                    </tr>
+                    <tr><!--5-->
+                        <th><a href="https://www.youtube.com/watch?v=HKsFicCG-ug">MOZUが歌で怖がらせてくる with とりもも堂</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-007.jpg"></td>
+                    </tr>
+                    <tr><!--6-->
+                        <th><a href="https://www.youtube.com/watch?v=5LV5MPxpH2M">ホスト狂い切間てつお ...他</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-008.jpg"></td>
+                    </tr>
+                    <tr><!--7-->
+                        <th><a href="https://www.youtube.com/watch?v=mxpPXkCLdKQ">ヴァンダーマーはもう天井！れむくんが最強！ ...他</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-009.jpg"></td>
+                    </tr>
+                    <tr><!--8-->
+                        <th><a href="https://www.youtube.com/watch?v=6CZ1zF9SA34">マグナム、直立で飛ぶ ...他</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-010.jpg"></td>
+                    </tr>
+                    <tr><!--9-->
+                        <th><a href="https://www.youtube.com/watch?v=83DQFXyBylg">ネルキャシにゴリラって言ってみた ...他</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-011.jpg"></td>
+                    </tr>
+                    <tr><!--10-->
+                        <th><a href="https://www.youtube.com/watch?v=v3eiz3itc2M">牧田ここなの呪い...他</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-012.jpg"></td>
+                    </tr>
+            </div>
+            <div><!--11-20-->
+                    <tr><!--11-->
+                        <th><a href="https://www.youtube.com/watch?v=MjW9Llyxwc8">ユニコーンバットバトルロワイヤルで阿鼻叫喚...他</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-013.jpg"></td>
+                    </tr>
+                    <tr><!--12-->
+                        <th><a href="https://www.youtube.com/watch?v=7vf0gaxGcKE">デジタルじゃんけん？！シャンクズから1本の電話。...他</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-014.jpg"></td>
+                    </tr>
+                    <tr><!--13-->
+                        <th><a href="https://www.youtube.com/watch?v=zVdajFlYt88">れむくんと力二と猫マンゴーからの誕生日プレゼントが…？！</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-015.jpg"></td>
+                    </tr>
+                    <tr><!--14-->
+                        <th><a href="https://www.youtube.com/watch?v=W9Jekp7vyF8">声優の中村悠一さんことプスカ大佐の救急隊体験?!</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-016.jpg"></td>
+                    </tr>
+                    <tr><!--15-->
+                        <th><a href="https://www.youtube.com/watch?v=w1dzUaSmxco">ヴァンダーマーさんに遊んでもらったら大激怒?!</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-017.jpg"></td>
+                    </tr>
+                    <tr><!--16-->
+                        <th><a href="https://www.youtube.com/watch?v=HV0WMgf3gtE">パティと大号泣🥺合唱</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-018.jpg"></td>
+                    </tr>
+                    <tr><!--17-->
+                        <th><a href="https://www.youtube.com/watch?v=NGQKhoMdvv4">赤兎がみともと現場に急行する手段が原付?!</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-019.jpg"></td>
+                    </tr>
+                    <tr><!--18-->
+                        <th><a href="https://www.youtube.com/watch?v=W91wi3WEGA8">ミステリオンクイズの車にギャングのステッカー貼ってみた</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-020.jpg"></td>
+                    </tr>
+                    <tr><!--19-->
+                        <th><a href="https://www.youtube.com/watch?v=2T1JYbrdBVE">救急隊の危険すぎるアソビ</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-021.jpg"></td>
+                    </tr>
+                    <tr><!--20-->
+                        <th><a href="https://www.youtube.com/watch?v=J6aU_iuMyr4">救急車でレースがしたいとりもも堂VS命田守</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-022.jpg"></td>
+                    </tr>
+            </div>
+            <div><!--21-30-->
+                    <tr><!--21-->
+                        <th><a href="https://www.youtube.com/watch?v=YAAM9P41ZuQ">おさよつの1周年デートその後とカテジの歌</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-023.jpg"></td>
+                    </tr>
+                    <tr><!--22-->
+                        <th><a href="https://www.youtube.com/watch?v=PrYJhoM0bZQ">ナイチンガールと大きなお尻</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-024.jpg"></td>
+                    </tr>
+                    <tr><!--23-->
+                        <th><a href="https://www.youtube.com/watch?v=XucjhoYHjk0">救急隊志望 椎名 苺、面接に遅刻?!</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-025.jpg"></td>
+                    </tr>
+                    <tr><!--24-->
+                        <th><a href="https://www.youtube.com/watch?v=zkaX-7QXFmM">マクドナルドさんとの日常</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-026.jpg"></td>
+                    </tr>
+                    <tr><!--25-->
+                        <th><a href="https://www.youtube.com/watch?v=FDwlaLBezUo">後藤れむ＆マグナムの歌合戦ってなんでだろ～？</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-027.jpg"></td>
+                    </tr>
+                    <tr><!--26-->
+                        <th><a href="https://www.youtube.com/watch?v=EvXJIu_cdVQ">※音量注意!! 希肉屋で幽霊ドッキリ👻牧田ここなのガチ悲鳴がやばい</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-028.jpg"></td>
+                    </tr>
+                    <tr><!--27-->
+                        <th><a href="https://www.youtube.com/watch?v=EQhLXx8Uy6A">神崎治が心なき救急隊に誘拐?!鳥野とももみの決死の救助活動</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-029.jpg"></td>
+                    </tr>
+                    <tr><!--28-->
+                        <th><a href="https://www.youtube.com/watch?v=zNAcB73KJxc">鳥野ぎん×ももみ×雷堂ましろ、バーガー屋と相性最高</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-030.jpg"></td>
+                    </tr>
+                    <tr><!--29-->
+                        <th><a href="https://www.youtube.com/watch?v=Y3Aks7crpC0">神崎治、恋人 天羽よつはの最高レアカードのために子供にとんでもないことをする</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-031.jpg"></td>
+                    </tr>
+                    <tr><!--30-->
+                        <th><a href="https://www.youtube.com/watch?v=SxHlXr2SXI0">伊藤カテジ式計算法でカジノの大当たりを導き出す！</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-032.jpg"></td>
+                    </tr>
+            </div>
+            <div><!--31-40-->
+                    <tr><!--31-->
+                        <th><a href="https://www.youtube.com/watch?v=8k47Q-IoheM">吉田ユッカへ挑戦！おかちめんこゲームとマグナムの世界一かわいいダウン</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-033.jpg"></td>
+                    </tr>
+                    <tr><!--32-->
+                        <th><a href="https://www.youtube.com/watch?v=0S0xziRjpIs">りゅーぷがマクドナルドと事故?!餡ブレラレースにまさかの…</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-034.jpg"></td>
+                    </tr>
+                    <tr><!--33-->
+                        <th><a href="https://www.youtube.com/watch?v=HuAbnVD2tGQ">救急隊によるてっぺんてつおの大救出劇💥</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-035.jpg">画像なし</td>
+                    </tr>
+                    <tr><!--34-->
+                        <th><a href="https://www.youtube.com/watch?v=IdqH-RTghAs">街一番のヤバイ店アイアンバーガー</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-036.jpg"></td>
+                    </tr>
+                    <tr><!--35-->
+                        <th><a href="https://www.youtube.com/watch?v=3cpHPGjNYJQ">ヒーローのコスプレしたらメキーラが勘違い?!</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-037.jpg"></td>
+                    </tr>
+                    <tr><!--36-->
+                        <th><a href="https://www.youtube.com/watch?v=aEe9aAkcS0Q">救急隊の男気じゃんけん✊✌✋</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-038.jpg"></td>
+                    </tr>
+                    <tr><!--37-->
+                        <th><a href=""></th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-039.jpg"></td>
+                    </tr>
+                    <tr><!--38-->
+                        <th><a href=""></th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-040.jpg"></td>
+                    </tr>
+                    <tr><!--39-->
+                        <th><a href=""></th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-041.jpg"></td>
+                    </tr>
+                    <tr><!--40-->
+                        <th><a href=""></th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-042.jpg"></td>
+                    </tr>
+            </div>
+        </table>
+        <table><!--外コラボ-->
+            <h2><div class="question" id="question"></div>外コラボ</h2>
+            <tr><!--0-->
+                    <th>タイトル</th>
+                    <td>サムネイル</td>
+            </tr>
+            <div><!--1-10-->
+                    <tr><!--1-->
+                        <th><a href="https://www.youtube.com/watch?v=WkMtwT00XfQ">ストグラ救急隊格付け</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-501.jpg"></td>
+                    </tr>
+                    <tr><!--2-->
+                        <th><a href="https://www.youtube.com/watch?v=CXpD13hGxU8">【 ✖RP 】 ストグラ 増やし鬼？！</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-502.jpg"></td>
+                    </tr>
+                    <tr><!--3-->
+                        <th><a href="https://www.youtube.com/watch?v=hnBzVX2kn-A">˗ˋˏ #ストグラ鬼ごっこ 👹！ ˎˊ˗</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-503.jpg"></td>
+                    </tr>
+                    <tr><!--4-->
+                        <th><a href="https://www.youtube.com/watch?v=wglAojGqR4U">救急隊ゴチになります！</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-504.jpg"></td>
+                    </tr>
+                    <tr><!--5-->
+                        <th><a href="https://www.youtube.com/watch?v=pG_cRZXa4Zs">【 マリパ 】一体なにがはじまるんです？</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-505.jpg" style="max-width: 400px;"></td>
+                    </tr>
+                    <tr><!--6-->
+                        <th><a href="https://www.youtube.com/watch?v=QrM85op_gPA">音千子×マルフォイ ストグラ雑談</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-506.jpg">画像無し 猫月と雑談</td>
+                    </tr>
+                    <tr><!--7-->
+                        <th><a href="https://www.youtube.com/watch?v=I41uJZ73Hdw">【 桃鉄 】ストグラ救急隊コラボ</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-507.jpg"></td>
+                    </tr>
+                    <tr><!--8-->
+                        <th><a href="https://www.youtube.com/watch?v=cW2HhtqgDTc">【 Phasmophobia 】ストグラ救急隊コラボ</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-508.jpg"></td>
+                    </tr>
+                    <tr><!--9-->
+                        <th><a href="https://www.youtube.com/watch?v=a-6D0R-lqKM">【 HFF 】赤ちゃん👶担当です。</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-509.jpg"></td>
+                    </tr>
+                    <tr><!--10-->
+                        <th><a href="https://www.youtube.com/watch?v=BmPyHT9Wuis">ストグラコラボ👻</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-510.jpg"></td>
+                    </tr>
+            </div>
+            <div><!--11-20-->
+                    <tr><!--11-->
+                        <th><a href="https://www.youtube.com/watch?v=dcYY34E5kLg">ストグラ救急隊コラボ</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-511.jpg"></td>
+                    </tr>
+                    <tr><!--12-->
+                        <th><a href="https://www.youtube.com/watch?v=sVI3T7sgn6M">【 ストグラボードゲームコラボ 】</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-512.jpg"></td>
+                    </tr>
+                    <tr><!--13-->
+                        <th><a href="https://www.youtube.com/watch?v=TiFO1Yj4eEo"> ストグラ救急隊座談会</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-513.jpg"></td>
+                    </tr>
+                    <tr><!--14-->
+                        <th><a href="https://www.youtube.com/watch?v=QghvhknwJIU">隊長ウィルももみ鳥野</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-514.jpg"></td>
+                    </tr>
+                    <tr><!--15-->
+                        <th><a href="https://www.youtube.com/watch?v=8KAENDF9juQ">【 マイクラ建築伝言ゲーム 】二次会だー！</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-515.jpg"></td>
+                    </tr>
+                    <tr><!--16-->
+                        <th><a href="https://www.youtube.com/watch?v=yrygLiUGiwA">【 Phasmophobia 】角刈り VS 幽霊👻</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-516.jpg"></td>
+                    </tr>
+                    <tr><!--17-->
+                        <th><a href="https://www.youtube.com/watch?v=aDJK8nyOrZg">【 オインクゲームズ 】ほんわかまったりします</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-517.jpg"></td>
+                    </tr>
+                    <tr><!--18-->
+                        <th><a href="https://www.youtube.com/watch?v=OQz_yx_ijHU">【 Overcooked 2 】食べる係します。</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-518.jpg"></td>
+                    </tr>
+                    <tr><!--19-->
+                        <th><a href="https://www.youtube.com/watch?v=xL3Emp3ijrE"> 二次会はサバイバル🔨 救急隊マイクラ</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-519.jpg"></td>
+                    </tr>
+                    <tr><!--20-->
+                        <th><a href="https://www.youtube.com/watch?v=BmPyHT9Wuis">ストグラコラボ👻</th>
+                        <td><img src="img/STGR/EMS/STGR EMS 08-520.jpg"></td>
+                    </tr>
+            </div>
+        </table>
+        <div classs="col"><!--end card-->
+            <img src="img/BGmysite.jpg" width="100%" alt="picture">
+        </div>
+        </section>
+    </main>
+    <p id="page-top"><a href="#">TOP</a></p>
+    <script src="./js/top back.js" defer></script>
+</body>

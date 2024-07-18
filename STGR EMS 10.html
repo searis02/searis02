@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>鳥野ぎん</title>
+    <meta charset="utf-8">
+    <meta name="description"content="自分が作成したもののまとめ">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/STGR.jpg">
+    <meta name="robots" content="noindex">
+    <meta name="format-detection" content="email=no,telephone=no,address=no">
+    <link rel="stylesheet" type="text/css" href="css/STGR.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script language="javascript" type="text/javascript">
+        // 読込
+        function load() {
+        if(!localStorage.getItem('mydata')) {
+        alert("保存データはありません");
+        } else {
+        mydata = localStorage.getItem('mydata');
+        document.getElementById("mydata_in").value = mydata;
+        }
+        }
+        // 保存
+        function save() {
+        var mydata = document.getElementById("mydata_in").value;
+        localStorage.setItem('mydata', mydata);
+        }
+        // 確認
+        function view() {
+        if(!localStorage.getItem('mydata')) {
+        alert("保存データはありません");
+        } else {
+        mydata = localStorage.getItem('mydata');
+        document.getElementById("mydata_out").innerText = mydata;
+        }
+        }
+    </script>
+</head>
+<body onload="load()">
+    <header>
+        
+        <div class="hidden"><a href="xs personal.html">-</a></div>
+
+        <div class="container">
+            <div class="row">
+                <a href="./index.html" class="logo">My site</a>
+                <ul>
+                    <li class="header-list"><a href="#EMS">概要</a></li>
+                    <li class="header-list"><a href="#SGPD">拠点</a></li>
+                    <li class="header-list"><a href="#MOZU">アーカイブ</a></li>
+                    <li class="header-list"><a href="#Todo">切り抜き</a></li>
+                    <li class="header-list"><a href="#question" >拠点</a></li>
+                </ul>
+            </div>
+        </div> 
+    </header>
+
+    <img src="img/STGR/EMS/STGR EMS 10-001.jpg" class="stgrtop">
+    <img src="img/STGR/EMS/STGR EMS 10-002.jpg" class="stgrchara">
+    <main>
+        <table><!--プロフィール-->
+            <tr><!--名前-->
+                <th>名前</th>
+                <td>鳥野 ぎん</td>
+            </tr>
+            <tr><!--誕生日-->
+                <th>誕生日</th>
+                <td>2001/05/07</td>
+            </tr>
+            <tr><!--職業-->
+                <th>職業</th>
+                <td>救急隊 人事部長<br>航空機ディーラー<br>ToY オーナー</td>
+            </tr>
+            <tr><!--プレイヤー-->
+                <th>プレイヤー</th>
+                <td>こるぺん</td>
+            </tr>
+            <tr><!--SNS-->
+                <th>SNS</th>
+                <td><img src="img/twitter.png" class="smalllogo"><a href="https://twitter.com/kolupen?s=21&t=-8YIYpZ2PXN8UP4X9hk8Zw" class="twitter">Twitter</a>
+                <br><img src="img/Youtube.png" class="smalllogo"><a href="https://www.youtube.com/c/%E3%81%93%E3%82%8B%E3%81%BA%E3%82%93" class="youtube">Youtube</a>
+                <br><img src="img/Twitch.png" class="smalllogo"><a href="https://www.twitch.tv/kolu_pen" class="twitch">Twitch</a>
+                </td>
+            </tr>
+            <tr><!--別キャラ-->
+                <th>別キャラ</th>
+                <td>猿山ジン</td>
+            </tr>
+        </table>
+        
+        <section class="section3">
+            <div class="container">
+                <div class="row" id="EMS"><!--概要-->
+                    <div classs="col">
+                        <h2>概要</h2>
+                        <hr>
+                        <p class="text">ストグラの救急隊について。<br>member:命田守、橘かげまる、神崎治、 天羽よつは、伊藤カテジ、サンクチュアリたえこ、ウィルナイアー、ももみ、フランシスコマグナム、鳥野ぎん、雷堂ましろ、石定シソジ<br>ノビーラング、世風天みにゃ、朱雀愛未、ナイチンガール<br>ヘスティアゴデス、キラメキーラ、赤兎がみとも、箱根しおん、ジョンドングリ、吉田ユッカ、加賀イズミ、椎名苺、りゅーぷ、澄乃ミレイ、葉風邪ナイ、切間てつお、星野ももあ、元難波芽久未、宮脇悠吾、イナイロハ、伊豆院登、亜座嵐りか。<br>ロスサントスで一番平和(勝手に)で仲良しなみんなのことをまとめる場所です。</p>
+                    </div>
+                    <div classs="col">
+                        <img src="img/BGmysite.jpg" width="100%" alt="picture">
+                    </div>
+                </div>
+                <div class="row" id="SGPD"><!--拠点-->
+                    <div classs="col">
+                        <h2>拠点</h2>
+                        <hr>
+                        <p class="text">ストグラの救急隊について。<br>member:命田守、橘かげまる、神崎治、 天羽よつは、伊藤カテジ、サンクチュアリたえこ、ウィルナイアー、ももみ、フランシスコマグナム、鳥野ぎん、雷堂ましろ、石定シソジ<br>ノビーラング、世風天みにゃ、朱雀愛未、ナイチンガール<br>ヘスティアゴデス、キラメキーラ、赤兎がみとも、箱根しおん、ジョンドングリ、吉田ユッカ、加賀イズミ、椎名苺、りゅーぷ、澄乃ミレイ、葉風邪ナイ、切間てつお、星野ももあ、元難波芽久未、宮脇悠吾、イナイロハ、伊豆院登、亜座嵐りか。<br>ロスサントスで一番平和(勝手に)で仲良しなみんなのことをまとめる場所です。</p>
+                    </div>
+                    <div classs="col">
+                        <img src="img/BGmysite.jpg" width="100%" alt="picture">
+                    </div>
+                </div>
+
+                <div class="archive" id="MOZU"><!--アーカイブ保存設定-->
+                    <h2>アーカイブ履歴</h2>
+                    <textarea name="mydata_in" id="mydata_in" cols=40 rows=4>Day.0 00:00:00</textarea>
+                    <br>
+                    <input type="button" value="保存" onclick="save();" >
+                    localStrageに保存します<br ><br>
+
+                    <input type="button" value="保存確認" onclick="view();" >
+                    <span id="mydata_out"></span>
+                </div>
+                
+        <table><!--アーカイブ-->
+            <h2>配信アーカイブ</h2>
+            <tr><!--0-->
+                <th>Day</th>
+                <td>日付</td>
+                <td>タイトル</td>
+            </tr>
+            <div><!--1-10-->
+                <tr><!--1-->
+                    <th>Day.1</th>
+                    <td>2022/08/30</td>
+                    <td><a href="https://www.twitch.tv/videos/1580648954?collection=xJggL5xbEReQGw">無職 下積みする</td>
+                </tr>
+                <tr><!--2-->
+                    <th>Day.2</th>
+                    <td>2022/08/31</td>
+                    <td><a href="https://www.twitch.tv/videos/1580649244?collection=xJggL5xbEReQGw">競馬王 鳥野</td>
+                </tr>
+                <tr><!--3-->
+                    <th>Day.3</th>
+                    <td>2022/09/02</td>
+                    <td><a href="https://www.twitch.tv/videos/1580649403?collection=xJggL5xbEReQGw">	無職 馬カス</td>
+                </tr>
+                <tr><!--4-->
+                    <th>Day.4</th>
+                    <td>2022/09/04</td>
+                    <td>視聴不可</td>
+                </tr>
+                <tr><!--5-->
+                    <th>Day.5</th>
+                    <td>2022/09/18</td>
+                    <td><a href="https://www.twitch.tv/videos/1596958904?collection=xJggL5xbEReQGw">3年ぶりイベントたのしかた</td>
+                </tr>
+                <tr><!--6-->
+                    <th>Day.6</th>
+                    <td>2022/09/19</td>
+                    <td><a href="https://www.twitch.tv/videos/1596959023?t=02h54m18s">	お久イカ チャー縛り</td>
+                </tr>
+                <tr><!--7-->
+                    <th>Day.7</th>
+                    <td>2022/09/20</td>
+                    <td><a href="https://www.twitch.tv/videos/1596959371?collection=xJggL5xbEReQGw&t=02h12m09s">	昼悔しかったから夜もスプラトン チャー縛り</td>
+                </tr>
+                <tr><!--8-->
+                    <th>Day.8</th>
+                    <td>2022/09/21</td>
+                    <td><a href="https://www.twitch.tv/videos/1602706628?collection=xJggL5xbEReQGw">	航空機を売りたい</td>
+                </tr>
+                <tr><!--9-->
+                    <th>Day.9</th>
+                    <td>2022/09/27</td>
+                    <td><a href="https://www.twitch.tv/videos/1602706941?collection=xJggL5xbEReQGw">喉しんでるけど仕事</td>
+                </tr>
+                <tr><!--10-->
+                    <th>Day.10</th>
+                    <td>2022/10/01</td>
+                    <td><a href="https://www.twitch.tv/videos/1624950332?collection=xJggL5xbEReQGw">真っ当に生きすぎてる</td>
+                </tr>
+            </div>
+            <div><!--11-20-->
+                <tr><!--11-->
+                    <th>Day.11</th>
+                    <td>2022/08/28</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--12-->
+                    <th>Day.12</th>
+                    <td>2022/08/30</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--13-->
+                    <th>Day.13</th>
+                    <td>2022/09/02</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--14-->
+                    <th>Day.14</th>
+                    <td>2022/09/01</td>
+                    <td><a href=""></td>
+                </tr>
+                <tr><!--15-->
+                    <th>Day.15</th>
+                    <td>2022/09/02</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--16-->
+                    <th>Day.16</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--17-->
+                    <th>Day.17</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--18-->
+                    <th>Day.18</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+                <tr><!--19-->
+                    <th>Day.19</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">イトル</td>
+                </tr>
+                <tr><!--20-->
+                    <th>Day.20</th>
+                    <td>2022/08/28</td>
+                    <td><a href="">タイトル</td>
+                </tr>
+            </div>
+        </table>
+
+        <table><!--切り抜き-->
+            <h2><div class="Todo" id="Todo"></div>切り抜き</h2>
+            <tr><!--0-->
+                    <th>タイトル</th>
+                    <td>サムネイル</td>
+            </tr>
+            <div><!--1-10-->
+                    <tr><!--1-->
+                        <th><a href=""></th>
+                        <td><img src="img/STGR/STGR EMS 0x-00x.jpg"></td>
+                    </tr>
+                    <tr><!--2-->
+                        <th><a href=""></th>
+                        <td><img src="img/STGR/STGR EMS 0x-00x.jpg"></td>
+                    </tr>
+                    <tr><!--3-->
+                        <th><a href=""></th>
+                        <td><img src="img/STGR/STGR EMS 0x-00x.jpg"></td>
+                    </tr>
+            </div>
+        </table>
+        <table><!--外コラボ-->
+            <h2><div class="question" id="question"></div>外コラボ</h2>
+            <tr><!--0-->
+                    <th>タイトル</th>
+                    <td>サムネイル</td>
+            </tr>
+            <div><!--1-10-->
+                    <tr><!--1-->
+                        <th><a href="https://www.youtube.com/watch?v=WkMtwT00XfQ">ストグラ救急隊格付け</th>
+                        <td><img src="img/STGR/STGR EMS 08-501.jpg"></td>
+                    </tr>
+                    <tr><!--2-->
+                        <th><a href="https://www.youtube.com/watch?v=CXpD13hGxU8">【 ✖RP 】 ストグラ 増やし鬼？！</th>
+                        <td><img src="img/STGR/STGR EMS 08-502.jpg"></td>
+                    </tr>
+                    <tr><!--3-->
+                        <th><a href="https://www.youtube.com/watch?v=hnBzVX2kn-A">˗ˋˏ #ストグラ鬼ごっこ 👹！ ˎˊ˗</th>
+                        <td><img src="img/STGR/STGR EMS 08-503.jpg"></td>
+                    </tr>
+                    <tr><!--4-->
+                        <th><a href="https://www.youtube.com/watch?v=wglAojGqR4U">救急隊ゴチになります！</th>
+                        <td><img src="img/STGR/STGR EMS 08-504.jpg"></td>
+                    </tr>
+                    <tr><!--5-->
+                        <th><a href="https://www.youtube.com/watch?v=pG_cRZXa4Zs">【 マリパ 】一体なにがはじまるんです？</th>
+                        <td><img src="img/STGR/STGR EMS 08-505.jpg"></td>
+                    </tr>
+                    <tr><!--6-->
+                        <th><a href="https://www.youtube.com/watch?v=QrM85op_gPA">音千子×マルフォイ ストグラ雑談</th>
+                        <td><img src="img/STGR/STGR EMS 08-506.jpg">画像無し 猫月と雑談</td>
+                    </tr>
+                    <tr><!--7-->
+                        <th><a href="https://www.youtube.com/watch?v=I41uJZ73Hdw">【 桃鉄 】ストグラ救急隊コラボ</th>
+                        <td><img src="img/STGR/STGR EMS 08-507.jpg"></td>
+                    </tr>
+                    <tr><!--8-->
+                        <th><a href="https://www.youtube.com/watch?v=cW2HhtqgDTc">【 Phasmophobia 】ストグラ救急隊コラボ</th>
+                        <td><img src="img/STGR/STGR EMS 08-508.jpg"></td>
+                    </tr>
+                    <tr><!--9-->
+                        <th><a href="https://www.youtube.com/watch?v=a-6D0R-lqKM">【 HFF 】赤ちゃん👶担当です。</th>
+                        <td><img src="img/STGR/STGR EMS 08-509.jpg"></td>
+                    </tr>
+                    <tr><!--10-->
+                        <th><a href="https://www.youtube.com/watch?v=BmPyHT9Wuis">ストグラコラボ👻</th>
+                        <td><img src="img/STGR/STGR EMS 08-510.jpg"></td>
+                    </tr>
+            </div>
+        </table>
+        <div classs="col"><!--end card-->
+            <img src="img/BGmysite.jpg" width="100%" alt="picture">
+        </div>
+        </section>
+    </main>
+    <p id="page-top"><a href="#">TOP</a></p>
+    <script src="./js/top back.js" defer></script>
+</body>
