@@ -97,6 +97,42 @@ header ul li{
     border-radius:45px;
     margin-bottom:40px;
 }
+.archive-accordion summary{
+	position: relative;
+	list-style: none;
+	padding: 15px 45px 15px 25px;
+	border:1px solid #000474;
+	cursor: pointer;
+    background-color: rgb(255, 231, 245);
+}
+
+.archive-accordion summary::-webkit-details-marker {
+	display: none;
+}
+
+.archive-accordion summary::after{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: calc(50% - 10px);
+	right: 25px;
+	border-right: 4px solid #000474;
+	border-bottom: 4px solid #000474;
+	box-sizing: border-box;
+	content: "";
+	transform: rotate(45deg);
+	transition: top 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.archive-accordion details[open] summary::after{
+	top: calc(50% - 5px);
+	transform: rotate(-135deg);
+}
+
+.archive-accordion .contents{
+	padding: 15px 45px;
+	background:#E8ECF7;
+}
 
 
 
