@@ -87,10 +87,6 @@
         color: #FFF !important;
     }
 
-
-
-
-
 .swipe-content{
     max-width: 960px;
     max-height: 540px;
@@ -185,4 +181,32 @@ img{
   }
   .dots-3 .slick-dots .slick-active button {
     background: #0a467d;
+  }
+
+.smalllogo{
+    width: 16px !important;
+    height: 16px !important;
+    bottom: px;
+}
+.member{
+    padding-top:160px;
+    padding-left: 32px;
+}
+.twitter{
+    color:rgb(102, 174, 187);
+    text-decoration: none;
+}
+.youtube{
+    color:red;
+    text-decoration: none;
+}
+.instagram{
+  background: linear-gradient(90deg, #c431e9 0%, #ff3bef 55%, #e2671f 70%, #dbd144 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+  p {
+    font-size: 24px;
   }

@@ -2,124 +2,579 @@
 <html lang="ja">
 
 <head>
-    <title>原神確認(仮)</title>
-    <!--ページのタイトル-->
     <meta charset="utf-8">
-    <!--文字コードの指定-->
+    <title>原神data</title>
     <meta name="description"content="原神で自分用にデータをまとめたものです">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <!--viewportはスマホの表示幅、ピンチアウト、ピンチイン時の拡大縮小率を指定する-->
     <meta thhp-equiv="X-UA-Compatible" content="IE=edge">
-    <!--IE ver ごとに表示方法が変わり互換表示で正しくなくなる場合に最新verの標準modeになるようにする-->
     <meta name="robots" content="noindex,nofollow">
-    <!--robots contentを入力することで検索除けをすることができる-->
-    <link rel="shortcut icon" href="https://cdn.wikiwiki.jp/to/w/genshinwiki/%E3%83%8B%E3%82%A3%E3%83%AD%E3%82%A6/::ref/%E3%83%8B%E3%82%A3%E3%83%AD%E3%82%A6500_0.webp.webp?rev=a4b1d7ca8f6c7c447db74a510eb4517b&t=20221018004023">
+    <link rel="shortcut icon" href="img/game/Genshin/chara/nilou/nilou.jpg">
     <!--上記はPCでのアイコン画像の指定、今回はニィロウを使用-->
-    <script type="text/javascript" src="https://cdn.wikiwiki.jp/to/w/genshinwiki/%E3%83%8B%E3%82%A3%E3%83%AD%E3%82%A6/::ref/%E3%83%8B%E3%82%A3%E3%83%AD%E3%82%A6500_0.webp.webp?rev=a4b1d7ca8f6c7c447db74a510eb4517b&t=20221018004023.js"></script>
+    <script type="text/javascript" src="img/Genshin/chara/nilou.jpg.js"></script>
     <!--上記はスマホのホーム画面に影響するらしいがスマホで開けないため不明 ウェブクリップアイコン-->
-    <!--以降CSSセットをheadに入れる-->
-    <style>
-    </style>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--CSSの読み込み-->
+    <link rel="stylesheet" type="text/css" href="css/genshin.css">
 </head>
 
 
 <body>
-    <div class="wrapper">
-        <heading class="header">
-            <embedded>
-                <p class="logo">原神</p>
-            </embedded>
-            <flow class="header-list">
-                <ul>
-                    <li class="list"><a href="#first-list">目次へ</a></li>
-                    <li class="list">聖遺物</li>
-                </ul>
-            </flow>
-        </heading>
-
-        <embedded class="title">
-            <h1>原神 個人用まとめ</h1>
-            <img src="https://www.choke-point.com/wp-content/uploads/2021/05/genshin-ec.jpg">
-        </embedded>
-        <flow class="table-of-content">
-            <h2 id="first-list">目次</h2>
-            <ul class="mokuji">
-                <li class="list-1"><a href="#charactor">キャラクター</a></li>
-                <li class="list-2"><a href="#artifact">聖遺物</a></li>
-                <li class="list-3"><a href="https://genshin.hoyoverse.com/ja">原神公式サイト</a></li>
-                <a href="https://google.com">googleはこちら</a>
+    <header><div class="container">
+        <div class="row">
+            <a href="./index.html" class="logo">My site</a>
+            <ul>
+                <li class="header-list"><a href="#first-list">目次へ</a></li>
+                <li class="header-list"><a href="#cos">キャラクター</a></li>
+                <li class="header-list"><a href="#seiyuu">聖遺物</a></li>
+                <li class="header-list"><a href="#question" >form</a></li>
             </ul>
-        </flow>
+        </div>
+    </header>
 
-        <flow class="charactors">
-        <p class="list-1-link" id="charactor">キャラクター</p>
-        <ul>
-            <li class="traveler">旅人
-                <li class="chara">風主人公</li>
-                <li class="chara">岩主人公</li>
-                <li class="chara">雷主人公</li>
-                <li class="chara">草主人公</li>
-                <li class="chara">水主人公</li>
-                <li class="chara">炎主人公</li>
-                <li class="chara">氷主人公</li>
-            </li>
-            <li class="fire">炎元素
-                <li class="chara">ディルック</li>
-                <li class="chara">クレー</li>
-                <li class="chara">胡桃</li>
-                <li class="chara">宵宮</li>
-                <li class="chara">ディシア</li>
-                <li class="chara">blank</li>
-            </li>
-            <li class="water">水元素
-                <li class="chara">モナ</li>
-                <li class="chara">タルタリヤ</li>
-                <li class="chara">珊瑚宮心海</li>
-                <li class="chara">神里綾人</li>
-                <li class="chara">夜蘭</li>
-                <li class="chara">ニィロウ</li>
-                <li class="chara">blank</li>
-            </li>
-            <li class="wind">風元素
-                <li class="chara">ジン</li>
-                <li class="god">ウェンティ</li>
-                <li class="chara">魈</li>
-                <li class="chara">楓原万葉</li>
-                <li class="chara">放浪者</li>
-                <li class="chara">blank</li>
-        </li>
-            <li class="thunder">雷元素
-                <li class="chara">刻晴</li>
-                <li class="god">雷電将軍</li>
-                <li class="chara">八重神子</li>
-                <li class="chara">セノ</li>
-                <li class="chara">blank</li>
-            </li>
-            <li class="grass">草元素
-                <li class="chara">ティナリ</li>
-                <li class="god">ナヒーダ</li>
-                <li class="chara">アルハイゼン</li>
-                <li class="chara">白朮</li>
-                <li class="chara">blank</li>
-            </li>
-            <li class="ice">氷元素
-                <li class="chara">七七</li>
-                <li class="chara">甘雨</li>
-                <li class="chara">エウルア</li>
-                <li class="chara">神里綾華</li>
-                <li class="chara">申鶴</li>
-                <li class="chara">blank</li>
-            </li>
-            <li class="stone">岩元素
-                <li class="god">鍾離</li>
-                <li class="chara">アルベド</li>
-                <li class="chara">荒瀧一斗</li>
-                <li class="chara">blank</li>
-            </li>
-        </ul>
-        </flow>
+        <div class="section0">
+            <h1>原神 個人用まとめ</h1>
+            <img src="img/genshin.jpg">
+        </div>
+
+        <section class="section1"><!--目次-->
+            <div class="container">
+                <div class="row">
+                    <div class=""><h2>目次</h2></div><hr>
+                    <div class="col">
+                        <ul class="mokuji">
+                            <li><a href="#charactor">キャラクター</a></li>
+                            <li><a href="#artifact">聖遺物</a></li>
+                            <li><a href="https://genshin.hoyoverse.com/ja">原神公式サイト</a></li>
+                            <li><a href="#artifact">聖遺物</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <h2 id="charactor">キャラクター</h2><hr>
+            <div class="container">
+                <div class="row"><!--旅人-->
+                    <tag><h2>旅人</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"class="wind"><!--1-->
+                        <div class="wind">
+                            <img src="img/human/ilust/pottsness/icon.png" alt="wind">
+                            <h3>風主人公</h3></div>
+                    </div>
+                    <div class="col"><!--2-->
+                        <div class="rock">
+                            <img src="img/human/ilust/pottsness/icon.png" alt="rock">
+                            <h3>岩主人公</h3></div>
+                    </div>
+                    <div class="col"><!--3-->
+                        <div class="thunder">
+                            <img src="img/human/ilust/pottsness/icon.png" alt="thunder">
+                            <h3>雷主人公</h3></div>
+                    </div>
+                    <div class="col"><!--4-->
+                        <div class="leaf">
+                            <img src="img/human/ilust/pottsness/icon.png" alt="leaf">
+                            <h3>草主人公</h3></div>
+                    </div>
+                    <div class="col"><!--5-->
+                        <div class="water">
+                            <img src="img/human/ilust/pottsness/icon.png" alt="water">
+                            <h3>水主人公</h3></div>
+                    </div>
+                    <div class="col"><!--6-->
+                        <div class="fire">
+                            <img src="img/human/ilust/pottsness/icon.png" alt="fire">
+                            <h3>炎主人公</h3></div>
+                    </div>
+                    <div class="col"><!--7-->
+                        <div class="ice">
+                            <img src="img/human/ilust/pottsness/icon.png" alt="ice">
+                            <h3>氷主人公</h3></div>
+                    </div>
+                </div>
+                <div class="row"><!--炎元素-->
+                    <tag><h2>炎元素</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"><!--5-1-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Diluc/icon.png" alt="ディルック">
+                            <h3>ディルック</h3></div>
+                    </div>
+                    <div class="col"><!--5-2-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Klee/icon.jpg" alt="クレー">
+                            <h3>クレー</h3></div>
+                    </div>
+                    <div class="col"><!--5-3-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Hu Tao/icon.png" alt="胡桃">
+                            <h3>胡桃</h3></div>
+                    </div>
+                    <div class="col"><!--5-4-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/yoimiya/icon.png" alt="宵宮">
+                            <h3>宵宮</h3></div>
+                    </div>
+                    <div class="col"><!--5-5-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/dehya/icon.png" alt="ディシア">
+                            <h3>ディシア</h3></div>
+                    </div>
+                    <div class="col"><!--5-6-->
+                        <div class="fire">
+                            <img src="img/Lyney&Lynette/icon Lyney.png" alt="リネ">
+                            <h3>リネ</h3></div>
+                    </div>
+                    <div class="col"><!--5-7-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Knave/icon.png" alt="召使">
+                            <h3>召使</h3></div>
+                    </div>
+                    <div class="col"><!--blank-->
+                        <div class="fire">
+                            <img src="img/Genshin/chara/fire/" alt="blank">
+                            <h3>blank</h3></div>
+                    </div>
+                    <div class="col"><!--4-1-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Amber/icon.png" alt="アンバー">
+                            <h3>アンバー</h3></div>
+                    </div>
+                    <div class="col"><!--4-2-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Xiangling/icon.png" alt="香菱">
+                            <h3>香菱</h3></div>
+                    </div>
+                    <div class="col"><!--4-3-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Bennett/icon.png" alt="ベネット">
+                            <h3>ベネット</h3></div>
+                    </div>
+                    <div class="col"><!--4-4-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/sinen/icon.png" alt="辛炎">
+                            <h3>辛炎</h3></div>
+                    </div>
+                    <div class="col"><!--4-5-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Yanfei/icon.png" alt="煙緋">
+                            <h3>煙緋</h3></div>
+                    </div>
+                    <div class="col"><!--4-6-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/thoma/icon.png" alt="トーマ">
+                            <h3>トーマ</h3></div>
+                    </div>
+                    <div class="col"><!--4-7-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Chevreuse/icon.png" alt="シュヴルーズ">
+                            <h3>シュヴルーズ</h3></div>
+                    </div>
+                    <div class="col"><!--4-8-->
+                        <div class="fire">
+                            <img src="img/game/Genshin/chara/fire/Gaming/icon.png" alt="嘉明">
+                            <h3>嘉明</h3></div>
+                    </div>
+                </div>
+                <div class="row"><!--水元素-->
+                    <tag><h2>水元素</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"><!--5-1-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/mona/icon.png" alt="モナ">
+                            <h3>モナ</h3></div>
+                    </div>
+                    <div class="col"><!--5-2-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Tartaglia/icon.png" alt="タルタリヤ">
+                            <h3>タルタリヤ</h3></div>
+                    </div>
+                    <div class="col"><!--5-3-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/kokomi/icon.png" alt="珊瑚宮心海">
+                            <h3>珊瑚宮心海</h3></div>
+                    </div>
+                    <div class="col"><!--5-4-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/ayato/icon.png" alt="神里綾人">
+                            <h3>神里綾人</h3></div>
+                    </div>
+                    <div class="col"><!--5-5-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Yelan/icon.png" alt="夜蘭">
+                            <h3>夜蘭</h3></div>
+                    </div>
+                    <div class="col"><!--5-6-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/nilou/icon.png" alt="ニィロウ">
+                            <h3>ニィロウ</h3></div>
+                    </div>
+                    <div class="col"><!--5-7-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Neuvillette/icon.png" alt="ヌヴィレット">
+                            <h3>ヌヴィレット</h3></div>
+                    </div>
+                    <div class="col"><!--5-8-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Furina/icon 2.png" alt="フリーナ">
+                            <h3>フリーナ</h3></div>
+                    </div>
+                    <div class="col"><!--5-9-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Sigewinne/icon.png" alt="シグウィン">
+                            <h3>シグウィン</h3></div>
+                    </div>
+                    <div class="col"><!--5-10-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/mualani/icon.png" alt="ムアラニ">
+                            <h3>ムアラニ</h3></div>
+                    </div>
+                    <div class="col"><!--blank-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/" alt="blank">
+                            <h3>blank</h3></div>
+                    </div>
+                    <div class="col"><!--4-1-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Barbara/icon.png" alt="バーバラ">
+                            <h3>バーバラ</h3></div>
+                    </div>
+                    <div class="col"><!--4-2-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Xingqiu/icon.png" alt="行秋">
+                            <h3>行秋</h3></div>
+                    </div>
+                    <div class="col"><!--4-3-->
+                        <div class="water">
+                            <img src="img/game/Genshin/chara/water/Candace/icon.png" alt="キャンディス">
+                            <h3>キャンディス</h3></div>
+                    </div>
+                </div>
+                <div class="row"><!--風元素-->
+                    <tag><h2>風元素</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"><!--5-1-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/jean/icon.png" alt="ジン">
+                            <h3>ジン</h3></div>
+                    </div>
+                    <div class="col"><!--5-2-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/Venti/Venti.jpg" alt="ウェンティ">
+                            <h3>ウェンティ</h3></div>
+                    </div>
+                    <div class="col"><!--5-3-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/xiao/icon.png" alt="魈">
+                            <h3>魈</h3></div>
+                    </div>
+                    <div class="col"><!--5-4-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/kazuha/icon.png" alt="楓原万葉">
+                            <h3>楓原万葉</h3></div>
+                    </div>
+                    <div class="col"><!--5-5-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/wonderer/icon.png" alt="放浪者">
+                            <h3>放浪者</h3></div>
+                    </div>
+                    <div class="col"><!--5-6-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/xianyun/icon.png" alt="閑雲">
+                            <h3>閑雲</h3></div>
+                    </div>
+                    <div class="col"><!--blank-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/" alt="blank">
+                            <h3>blank</h3></div>
+                    </div>
+                    <div class="col"><!--4-1-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/Sucrose/icon.png" alt="スクロース">
+                            <h3>スクロース</h3></div>
+                    </div>
+                    <div class="col"><!--4-2-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/sayu/icon.png" alt="早柚">
+                            <h3>早柚</h3></div>
+                    </div>
+                    <div class="col"><!--4-3-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/heizou/icon.png" alt="鹿野院平蔵">
+                            <h3>鹿野院平蔵</h3></div>
+                    </div>
+                    <div class="col"><!--4-4-->
+                        <div class="wind">
+                            <img src="img/game/Genshin/chara/wind/Faruzan/icon.png" alt="ファルザン">
+                            <h3>ファルザン</h3></div>
+                    </div>
+                    <div class="col"><!--4-5-->
+                        <div class="wind">
+                            <img src="img/Lyney&Lynette/icon Lynette.png" alt="リネット">
+                            <h3>リネット</h3></div>
+                    </div>
+                </div>
+                <div class="row"><!--雷元素-->
+                    <tag><h2>雷元素</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"><!--5-1-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/Keqing/icon.png" alt="刻晴">
+                            <h3>刻晴</h3></div>
+                    </div>
+                    <div class="col"><!--5-2-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/raiden/icon.png" alt="雷電将軍">
+                            <h3>雷電将軍</h3></div>
+                    </div>
+                    <div class="col"><!--5-3-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/yae miko/icon.png" alt="八重神子">
+                            <h3>八重神子</h3></div>
+                    </div>
+                    <div class="col"><!--5-4-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="セノ">
+                            <h3>セノ</h3></div>
+                    </div>
+                    <div class="col"><!--5-5-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="クロリンデ">
+                            <h3>クロリンデ</h3></div>
+                    </div>
+                    <div class="col"><!--blank-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/" alt="blank">
+                            <h3>blank</h3></div>
+                    </div>
+                    <div class="col"><!--4-1-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="リサ">
+                            <h3>リサ</h3></div>
+                    </div>
+                    <div class="col"><!--4-2-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="レザー">
+                            <h3>レザー</h3></div>
+                    </div>
+                    <div class="col"><!--4-3-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="北斗">
+                            <h3>北斗</h3></div>
+                    </div>
+                    <div class="col"><!--4-4-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="フィッシュル">
+                            <h3>フィッシュル</h3></div>
+                    </div>
+                    <div class="col"><!--4-5-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="九条沙羅">
+                            <h3>九条沙羅</h3></div>
+                    </div>
+                    <div class="col"><!--4-6-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="久喜忍">
+                            <h3>久喜忍</h3></div>
+                    </div>
+                    <div class="col"><!--4-7-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="ドリー">
+                            <h3>ドリー</h3></div>
+                    </div>
+                    <div class="col"><!--4-8-->
+                        <div class="thunder">
+                            <img src="img/game/Genshin/chara/thunder/" alt="セトス">
+                            <h3>セトス</h3></div>
+                    </div>
+                </div>
+                <div class="row"><!--草元素-->
+                    <tag><h2>草元素</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"><!--5-1-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/Keqing/icon.png" alt="ティナリ">
+                            <h3>ティナリ</h3></div>
+                    </div>
+                    <div class="col"><!--5-2-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/raiden/icon.png" alt="ナヒーダ">
+                            <h3>ナヒーダ</h3></div>
+                    </div>
+                    <div class="col"><!--5-3-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/yae miko/icon.png" alt="アルハイゼン">
+                            <h3>アルハイゼン</h3></div>
+                    </div>
+                    <div class="col"><!--5-4-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/" alt="白朮">
+                            <h3>白朮</h3></div>
+                    </div>
+                    <div class="col"><!--5-5-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/" alt="エミリエ">
+                            <h3>エミリエ</h3></div>
+                    </div>
+                    <div class="col"><!--blank-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/" alt="blank">
+                            <h3>blank</h3></div>
+                    </div>
+                    <div class="col"><!--4-1-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/" alt="コレイ">
+                            <h3>コレイ</h3></div>
+                    </div>
+                    <div class="col"><!--4-2-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/" alt="ヨォーヨ">
+                            <h3>ヨォーヨ</h3></div>
+                    </div>
+                    <div class="col"><!--4-3-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/" alt="カーヴェ">
+                            <h3>カーヴェ</h3></div>
+                    </div>
+                    <div class="col"><!--4-4-->
+                        <div class="leaf">
+                            <img src="img/game/Genshin/chara/" alt="綺良々">
+                            <h3>綺良々</h3></div>
+                    </div>
+                </div>
+                <div class="row"><!--氷元素-->
+                    <tag><h2>氷元素</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"><!--5-1-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/Keqing/icon.png" alt="七七">
+                            <h3>七七</h3></div>
+                    </div>
+                    <div class="col"><!--5-2-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/raiden/icon.png" alt="甘雨">
+                            <h3>甘雨</h3></div>
+                    </div>
+                    <div class="col"><!--5-3-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/yae miko/icon.png" alt="エウルア">
+                            <h3>エウルア</h3></div>
+                    </div>
+                    <div class="col"><!--5-4-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="神里綾華">
+                            <h3>神里綾華</h3></div>
+                    </div>
+                    <div class="col"><!--5-5-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="申鶴">
+                            <h3>申鶴</h3></div>
+                    </div>
+                    <div class="col"><!--5-6-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="リオセスリ">
+                            <h3>リオセスリ</h3></div>
+                    </div>
+                    <div class="col"><!--blank-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="blank">
+                            <h3>blank</h3></div>
+                    </div>
+                    <div class="col"><!--4-1-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="ガイア">
+                            <h3>ガイア</h3></div>
+                    </div>
+                    <div class="col"><!--4-2-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="重雲">
+                            <h3>重雲</h3></div>
+                    </div>
+                    <div class="col"><!--4-3-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="ディオナ">
+                            <h3>ディオナ</h3></div>
+                    </div>
+                    <div class="col"><!--4-4-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="ロサリア">
+                            <h3>ロサリア</h3></div>
+                    </div>
+                    <div class="col"><!--4-5-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="レイラ">
+                            <h3>レイラ</h3></div>
+                    </div>
+                    <div class="col"><!--4-6-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="ミカ">
+                            <h3>ミカ</h3></div>
+                    </div>
+                    <div class="col"><!--4-7-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="フレミネ">
+                            <h3>フレミネ</h3></div>
+                    </div>
+                    <div class="col"><!--4-8-->
+                        <div class="ice">
+                            <img src="img/game/Genshin/chara/" alt="シャルロット">
+                            <h3>シャルロット</h3></div>
+                    </div>
+                </div>
+                <div class="row"><!--岩元素-->
+                    <tag><h2>岩元素</a></h2><h2> <a href="#">top page</a></h2></tag>
+                    <div class="col"><!--5-1-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/Keqing/icon.png" alt="鍾離">
+                            <h3>鍾離</h3></div>
+                    </div>
+                    <div class="col"><!--5-2-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/raiden/icon.png" alt="アルベド">
+                            <h3>アルベド</h3></div>
+                    </div>
+                    <div class="col"><!--5-3-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/yae miko/icon.png" alt="荒瀧一斗">
+                            <h3>荒瀧一斗</h3></div>
+                    </div>
+                    <div class="col"><!--5-4-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="ナヴィア">
+                            <h3>ナヴィア</h3></div>
+                    </div>
+                    <div class="col"><!--5-5-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="千織">
+                            <h3>千織</h3></div>
+                    </div>
+                    <div class="col"><!--blank-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="blank">
+                            <h3>blank</h3></div>
+                    </div>
+                    <div class="col"><!--4-1-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="凝光">
+                            <h3>凝光</h3></div>
+                    </div>
+                    <div class="col"><!--4-2-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="ノエル">
+                            <h3>ノエル</h3></div>
+                    </div>
+                    <div class="col"><!--4-3-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="ゴロー">
+                            <h3>ゴロー</h3></div>
+                    </div>
+                    <div class="col"><!--4-4-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="雲菫">
+                            <h3>雲菫</h3></div>
+                    </div>
+                    <div class="col"><!--4-5-->
+                        <div class="rock">
+                            <img src="img/game/Genshin/chara/" alt="カチーナ">
+                            <h3>カチーナ</h3></div>
+                    </div>
+                </div>
+        </section>
+
+        <br>
         <p class="list-2-link" id="artifact">聖遺物</p>
         <ul>
             <li class="kentohshi">剣闘士のフィナーレ</li>

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 32px;
+    font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
+    color:firebrick;
+    background-color: azure;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(139, 67, 255);
+}
+.footer {
+    vertical-align: text-top;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    background-color:#c5c5c5;
+}
