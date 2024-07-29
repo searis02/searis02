@@ -120,7 +120,7 @@ footer {
     margin-bottom: 45px;
 }
 .section2 .container{
-    max-width: 1280px;
+    max-width: 1680px;
     width: 90%;
     margin: 0 auto;
 }
@@ -262,6 +262,14 @@ footer {
 
 
 @media screen and (max-width: 767px){
+    .section2 .col{
+        width: 96%;
+        color:#2cb67d;
+        padding: 20px;
+        border-radius: 32px;
+        margin-top: 38px;
+        background-color: #2d312c;
+    }
     .section3{
         width: 96%;
     }
