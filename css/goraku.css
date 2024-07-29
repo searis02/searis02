@@ -125,6 +125,23 @@ header ul li{
 .section3 .col{
     width: 44%;
 }
+.box {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    background: rgb(245, 228, 205);
+    border: 2px solid rgb(79,185,227);
+    border-radius: 5px;
+    padding: 1em;
+}
+.content{
+    padding-top: 80px;
+}
+.box img{
+    max-width: 300px;
+    height: auto;
+}
 
 
 table{
@@ -177,21 +194,3 @@ table td {
     text-decoration: none;
     opacity: .5;
   }
-
-  .box {
-    float: right;
-    width: 300px;
-    height: auto;
-    margin-right: 30px;
-    background: rgb(245, 228, 205);
-    border: 2px solid rgb(79,185,227);
-    border-radius: 5px;
-    padding: 1em;
-}
-.content{
-    padding-top: 80px;
-}
-.box img{
-    max-width: 300px;
-    height: auto;
-}

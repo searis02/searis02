@@ -64,10 +64,9 @@ iframe{
     background-image: url(../img/Sagir.jpg);
     background-position: center bottom;
     background-size: cover;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
-    margin: 0 auto;
 }
 .section1 .filter{
     width: 100%;
@@ -78,7 +77,7 @@ iframe{
     top: 0;
     left: 0;
     z-index: 1;
-    transform: translateY(70px);
+    transform: translateY(90px);
 }
 .section1 .container{
     width: 90%;
@@ -301,15 +300,8 @@ iframe{
         width: 100%;
         margin-bottom: 30px;
     }
-    .section4{
-        width:96%;
-        display: flex;
-        margin: 0 auto;
-    }
     .section5 {
         width: 96%;
-        display: flex;
-        margin: 0 auto;
     }
 }
 

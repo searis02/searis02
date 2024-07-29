@@ -8,6 +8,14 @@ body{
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
     background-color: azure;
+    margin: 0;
+}
+body.MOZU{
+    font-size: 26px;
+    font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
+    color:firebrick;
+    background-color: rgb(18, 16, 41);
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -46,13 +54,21 @@ header ul li{
     font-size: 14px;
     letter-spacing: 1px;
 } 
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    background-color:#c5c5c5;
+}
 .stgrlogo{
-    max-width: 90vw;
-    height: auto;
+    max-width: 98%;
+    max-height: 60vh;
     width: auto;
     margin: auto;
     display: block;
-    padding-top:140px;
+    padding-top:50px;
 }
 
 .stgrtop{
@@ -159,19 +175,36 @@ header ul li{
 
 
 table{
-    width:100%;
+    width: 98%;
+    margin: 0 auto;
     margin-top:60px;
     text-align:center;
     border-collapse: collapse;
     border: solid 2px pink;
 }
+.MOZU table{
+    width: 98%;
+    margin: 0 auto;
+    margin-top:60px;
+    text-align:center;
+    border-collapse: collapse;
+    border: solid 2px rgb(194, 0, 32);
+}
 table th, table td {
     border: dashed 1px pink;
-  }
+}
+.MOZU table th, table td{
+    border: dashed 1px rgb(194, 0, 32);
+}
 table th {
     padding: 10px;
     color:rgb(255, 255, 255);
     background:#d35959
+}
+.MOZU table td {
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    background:#5f5c5c
 }
 table td {
     padding: 12px 10px;
@@ -216,7 +249,7 @@ table td {
     float: right;
     width: 300px;
     height: auto;
-    margin-right: 30px;
+    margin-left: 30px;
     background: rgb(245, 228, 205);
     border: 2px solid rgb(79,185,227);
     border-radius: 5px;
@@ -254,4 +287,26 @@ table td {
   #page-top a:hover {
     text-decoration: none;
     opacity: .5;
+  }
+
+
+  @media screen and (max-width: 767px){
+    .box {
+        float: right;
+        width: 300px;
+        height: auto;
+        margin-left: 30px;
+        background: rgb(245, 228, 205);
+        border: 2px solid rgb(79,185,227);
+        border-radius: 5px;
+        padding: 0.4em;
+        margin: 0 auto;
+    }
+    .content{
+        padding-top: 80px;
+    }
+    .box img{
+        max-width: 300px;
+        height: auto;
+    }
   }
