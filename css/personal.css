@@ -226,6 +226,7 @@ iframe{
     border: solid 1px #851111;
     margin-bottom: 20px;
     padding: 16px 24px;
+    background-color:rgb(255, 239, 219);
 }
 .section4 .date{
     color: #7f5af5;
@@ -302,14 +303,31 @@ iframe{
         margin-bottom: 30px;
     }
     .section4{
-        width:96%;
+        width:100%;
         display: flex;
         margin: 0 auto;
+    }
+    .section4 .container{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section4 ul{
+        transform: translateX(-20px)
     }
     .section5 {
         width: 96%;
         display: flex;
         margin: 0 auto;
+    }
+    .section5 input, .section5 textarea{
+        background-color: #fff;
+        display: block;
+        width: 80%;
+        padding: 13px 16px;
+        margin:0 auto;
+        margin-bottom: 30px;
+        color: #16161a;
+        background-color:lime;
     }
 }
 
