@@ -7,7 +7,7 @@ body{
     font-size: 32px;
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
-    background-color: rgb(172, 214, 214);
+    background-color: rgb(182, 187, 175);
     margin: 0;
 }
 a {
@@ -61,17 +61,18 @@ iframe{
 }
 
 .section1 {
-    background-image: url(../img/Sagir.jpg);
+    background-image: url(../img/travel/world\ map.png);
     background-position: center bottom;
     background-size: cover;
-    height: 100vh;
+    width: 100%;
+    height: 600px;
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 .section1 .filter{
     width: 100%;
-    height: 100%;
+    height: 600px;
     background-color: #000000;
     opacity: 0.3;
     position: absolute;
@@ -117,6 +118,7 @@ iframe{
     background-color: rgb(90, 131, 219);
 }
 .section2{
+    margin-top: 70px;
     margin-bottom: 45px;
 }
 .section2 .container{
@@ -134,10 +136,9 @@ iframe{
 }
 .section2 .col{
     background-color: #ffffff;
-    width: 27%;
+    width: 42%;
     color:firebrick;
     padding: 20px;
-    padding-bottom: 5px;
     border-radius: 32px;
     margin-top: 38px;
 }
@@ -284,6 +285,7 @@ iframe{
 .section5 input[type=submit]:hover {
     background-color: #2cb67d;
 }
+
 
 @media screen and (max-width: 767px){
     .section1 .container{

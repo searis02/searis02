@@ -262,6 +262,10 @@ footer {
 
 
 @media screen and (max-width: 767px){
+    .section2 .row{
+        transform: translateY(-48px);
+        z-index: 2;
+    }
     .section2 .col{
         width: 96%;
         color:#2cb67d;

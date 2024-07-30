@@ -7,7 +7,6 @@ body{
     font-size: 0.9rem;
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
-    margin: 2rem;
     background-color: #b2d6e0;
     position:relative;
 }
@@ -15,7 +14,58 @@ a{
   text-decoration: none;
   color:#fa94e9;
 }
+header{
+  font-weight: 700;
+  width: 100%;
+  z-index: 3;
+  background-color:#ab101b;
+  box-shadow: #ab101b 0px 0px 10px 15px;
+}
+header .hidden{
+  font-size: 2px;
+}
+header .container{
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+}
+header .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+header .logo{
+  font-size: 24px;
+}
+header ul{
+  display: flex;
+  list-style:none;
+}
+header ul li{
+  margin-left: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+} 
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 40px;
+  letter-spacing: 1px;
+  background-color:#c5c5c5;
+}
+.selecter{
+  margin: 2rem;
+}
 
+.section00{
+
+}
+.section00 .container{
+  width: 90%;
+  margin: 0 auto;
+}
 @media screen and (max-width: 767px){
   .section1 .container{
       width: 98%;
@@ -184,6 +234,8 @@ select {
   height: auto;
   padding: 10px;
   border: 9px;
+  display: flex;
+  margin: 0 auto;
   margin-bottom: 16px;
 }
 .section2 video{
@@ -202,6 +254,7 @@ select {
   border: solid 4px greenyellow;
   margin-bottom: 16px;
   width: 96px;
+  margin: 0 auto;
 }
 .section2 .text{
   font-size: px;
