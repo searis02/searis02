@@ -8,6 +8,7 @@ body{
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
     background-color: rgb(233, 191, 181);
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -44,16 +45,24 @@ header ul li{
     font-size: 14px;
     letter-spacing: 1px;
 } 
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    background-color:#c5c5c5;
+}
 .series{
     padding-top: 33px;
     padding-bottom: 2px;
     margin-bottom: 4px;
 }
 .gamelogo{
-    max-height:800px;
+    max-height:700px;
     height: auto;
-    width: 94vw;
-    margin: auto;
+    width: 100%;
+    margin: 0;
     display: block;
 }
 
@@ -94,6 +103,10 @@ hr{
     margin-bottom: 60px;
     font-size:24px;
 }
+.section1 h1{
+    width: 90%;
+    margin: 0 auto;
+}
 .section1 .container{
     max-width: 1680px;
     width:85vw;
@@ -105,6 +118,100 @@ hr{
 .section1 .col{
     
 }
+.section1 tr img{
+    width: auto;
+    max-width: 380px;
+    max-height: 200px;
+}
+.section1 table{
+    width: 96%;
+    margin: 0 auto;
+}
+.section2{
+    margin-bottom: 45px;
+  }
+  .section2 .container{
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .section2 .row{
+    display: grid;
+    grid-template: auto / repeat(auto-fit, minmax(16px, 200px));
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 10px;
+    margin-top: 80px;
+    padding: 36px 24px;
+    border-radius: 32px;
+  }
+  .section2 .col{
+    padding: 4px;
+    background-color: #f1e1e4;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:16px;
+  }
+  .section2 p{
+      margin-top: 20px;
+  }
+  .section2 img:not(.smalllogo){
+    width: 160px;
+    height: auto;
+    padding: 10px;
+    border: 9px;
+    margin-bottom: 16px;
+  }
+  .section2 video{
+    width: 160px;
+    height: auto;
+    padding: 10px;
+    border: 9px;
+    margin-bottom: 16px;
+  }
+  .section2 h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom:16px;
+  }
+  .section2 hr{
+    border: solid 3px rgb(255, 69, 131);
+    margin-bottom: 16px;
+    width: 146px;
+    margin: 0 auto;
+  }
+  .section2 .text{
+    font-size: px;
+    line-height: 1.5;
+  }
+  .section2 .map{
+    border-radius: 25px;
+  }
+  .smalllogo{
+      width: 16px !important;
+      height: 16px !important;
+      bottom: px;
+  }
+  .twitter{
+      color:rgb(102, 174, 187);
+      text-decoration: none;
+  }
+  .youtube{
+      color:red;
+      text-decoration: none;
+  }
+  .instagram{
+    background: linear-gradient(90deg, #c431e9 0%, #ff3bef 55%, #e2671f 70%, #dbd144 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
 .section3{
     padding-top: 45px;
     margin-bottom: 60px;
@@ -152,9 +259,25 @@ table td {
     height: auto;
 }
 
-
-
-
+.box {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    background: rgb(245, 228, 205);
+    border: 2px solid rgb(79,185,227);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.content{
+    padding-top: 80px;
+}
+.box img{
+    max-width: 300px;
+    height: auto;
+}
 
 
 #page-top {
@@ -180,4 +303,8 @@ table td {
   #page-top a:hover {
     text-decoration: none;
     opacity: .5;
+  }
+
+  @media screen and (max-width: 767px){
+
   }
