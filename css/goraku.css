@@ -131,11 +131,13 @@ header ul li{
     float: right;
     width: 300px;
     height: auto;
-    margin-right: 30px;
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-bottom: 4px;
     background: rgb(245, 228, 205);
     border: 2px solid rgb(79,185,227);
     border-radius: 5px;
-    padding: 1em;
+    padding: 0.5em;
 }
 .content{
     padding-top: 80px;
@@ -195,4 +197,15 @@ table td {
   #page-top a:hover {
     text-decoration: none;
     opacity: .5;
+  }
+
+  @media screen and (max-width: 767px){
+    .box{
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 12px;
+    }
   }
