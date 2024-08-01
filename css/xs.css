@@ -14,6 +14,11 @@ a{
   text-decoration: none;
   color:#fa94e9;
 }
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 header{
   font-weight: 700;
   width: 100%;
@@ -189,6 +194,25 @@ select {
     transition: 0.2s ease;
   }
   
+.select-index{
+  width: 96%;
+  margin: 0 auto;
+}
+.select-index ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.select-index li{
+  width: 18%;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 1%;
+  background-color:#ecdfdf;
+  font-weight: bold;
+}
 .section2{
   margin-bottom: 45px;
 }

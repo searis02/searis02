@@ -46,13 +46,13 @@ header ul li{
     font-size: 14px;
     letter-spacing: 1px;
 } 
-.footer{
-    background-color: #fff;
+footer {
+    width: 100%;
     text-align: center;
-    color:#16161a;
-    font-size: 11px;
+    padding: 50px 0;
+    margin-top: 40px;
     letter-spacing: 1px;
-    padding: 22px 0;
+    background-color:#c5c5c5;
 }
 .series{
     padding-top: 33px;

@@ -126,6 +126,7 @@ hr{
 .section1 table{
     width: 96%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .section2{
     margin-bottom: 45px;
@@ -145,7 +146,19 @@ hr{
     max-width: 1280px;
     margin: 0 auto;
     gap: 10px;
-    margin-top: 80px;
+    margin-top: 0px;
+    padding: 36px 24px;
+    border-radius: 32px;
+  }
+  .dex .row{
+    width: 90%;
+    display: grid;
+    grid-template: auto / repeat(auto-fit, minmax(16px, 180px));
+    justify-content: center;
+    max-width: 1680px;
+    margin: 0 auto;
+    gap: 10px;
+    margin-top: 0px;
     padding: 36px 24px;
     border-radius: 32px;
   }
@@ -168,12 +181,28 @@ hr{
     border: 9px;
     margin-bottom: 16px;
   }
+  .dex img{
+    display: flex;
+    margin: 0 auto;
+    max-width:150px;
+    width: 80px;
+    height: auto;
+  }
   .section2 video{
     width: 160px;
     height: auto;
     padding: 10px;
     border: 9px;
     margin-bottom: 16px;
+  }
+  .section2 h1{
+    margin-top: 10px;
+    margin-bottom:0px;
+  }
+  .dex-text{
+    width: 90%;
+    margin: 0 auto;
+
   }
   .section2 h2{
     font-size: 24px;
