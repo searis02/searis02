@@ -8,7 +8,7 @@ body {
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
     margin-top: 2rem;
-    background-color:rgb(255, 242, 213);
+    background-color:rgb(149, 213, 230);
     position:relative;
 }
 .content {
@@ -39,7 +39,7 @@ iframe{
 }
 a{
   text-decoration: none;
-  color:#65bfcf;
+  color:#cf6565;
 }
 ul,li {
   margin: 0;
