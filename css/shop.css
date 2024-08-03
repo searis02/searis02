@@ -2,22 +2,23 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 body{
     font-size: 26px;
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
-    background-color: rgb(236, 226, 198);
+    background-color: azure;
     margin: 0;
 }
 a{
     text-decoration: none;
-    color: rgb(84, 74, 226);
+    color: rgb(223, 129, 7);
 }
 header{
     font-weight: 700;
     width: 100%;
     z-index: 3;
+    background-color: rgb(145, 233, 145);
 }
 header .hidden{
     font-size: 2px;
@@ -56,16 +57,28 @@ footer {
 .series{
     padding-top: 33px;
     padding-bottom: 2px;
-    margin-bottom: 4px;
 }
 .gamelogo{
-    max-height:700px;
+    max-height:800px;
     height: auto;
     width: 100%;
-    margin: 0;
+    margin: auto;
     display: block;
 }
 
+.stgrtop{
+    max-width:1280px;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.stgrchara{
+    max-height: 600px;
+    margin: auto;
+    display: block;
+    padding-top: 32px;
+}
 .smalllogo{
     width: 16px;
     height: 16px;
@@ -82,6 +95,12 @@ footer {
     color:purple;
     text-decoration: none;
 }
+.instagram{
+  background: linear-gradient(90deg, #c431e9 0%, #ff3bef 55%, #e2671f 70%, #dbd144 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
 .archive{
     color:bisque;
     background-color:rgb(159, 159, 206);
@@ -91,43 +110,8 @@ footer {
     border-radius:45px;
     margin-bottom:40px;
 }
-h3{
-    padding-left: 30px;
-}
-hr{
-    border: solid 3px #8c61a5;
-}
 
-.section1{
-    padding-top: 45px;
-    margin-bottom: 60px;
-    font-size:24px;
-}
-.section1 h1{
-    width: 90%;
-    margin: 0 auto;
-}
-.section1 .container{
-    max-width: 1680px;
-    width:85vw;
-    margin: 0 auto;
-}
-.section1 .row{
 
-}
-.section1 .col{
-    
-}
-.section1 tr img{
-    width: auto;
-    max-width: 380px;
-    max-height: 200px;
-}
-.section1 table{
-    width: 96%;
-    margin: 0 auto;
-    overflow: hidden;
-}
 .section2{
     margin-bottom: 45px;
   }
@@ -146,25 +130,13 @@ hr{
     max-width: 1280px;
     margin: 0 auto;
     gap: 10px;
-    margin-top: 0px;
-    padding: 36px 24px;
-    border-radius: 32px;
-  }
-  .dex .row{
-    width: 90%;
-    display: grid;
-    grid-template: auto / repeat(auto-fit, minmax(16px, 180px));
-    justify-content: center;
-    max-width: 1680px;
-    margin: 0 auto;
-    gap: 10px;
-    margin-top: 0px;
+    margin-top: 80px;
     padding: 36px 24px;
     border-radius: 32px;
   }
   .section2 .col{
     padding: 4px;
-    background-color: #f1e1e4;
+    background-color: #ebe1f1;
     border-radius: 15px;
     display: block;
     text-align: center;
@@ -180,13 +152,7 @@ hr{
     padding: 10px;
     border: 9px;
     margin-bottom: 16px;
-  }
-  .dex img{
-    display: flex;
-    margin: 0 auto;
-    max-width:150px;
-    width: 80px;
-    height: auto;
+    border-radius: 50%;
   }
   .section2 video{
     width: 160px;
@@ -195,22 +161,13 @@ hr{
     border: 9px;
     margin-bottom: 16px;
   }
-  .section2 h1{
-    margin-top: 10px;
-    margin-bottom:0px;
-  }
-  .dex-text{
-    width: 90%;
-    margin: 0 auto;
-
-  }
   .section2 h2{
     font-size: 24px;
     font-weight: 700;
     margin-bottom:16px;
   }
   .section2 hr{
-    border: solid 3px rgb(255, 69, 131);
+    border: solid 3px rgb(69, 187, 255);
     margin-bottom: 16px;
     width: 146px;
     margin: 0 auto;
@@ -218,28 +175,6 @@ hr{
   .section2 .text{
     font-size: px;
     line-height: 1.5;
-  }
-  .section2 .map{
-    border-radius: 25px;
-  }
-  .smalllogo{
-      width: 16px !important;
-      height: 16px !important;
-      bottom: px;
-  }
-  .twitter{
-      color:rgb(102, 174, 187);
-      text-decoration: none;
-  }
-  .youtube{
-      color:red;
-      text-decoration: none;
-  }
-  .instagram{
-    background: linear-gradient(90deg, #c431e9 0%, #ff3bef 55%, #e2671f 70%, #dbd144 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
   }
 .section3{
     padding-top: 45px;
@@ -261,11 +196,30 @@ hr{
 .section3 .col{
     width: 44%;
 }
+.box {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    background: rgb(245, 228, 205);
+    border: 2px solid rgb(79,185,227);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.content{
+    padding-top: 80px;
+}
+.box img{
+    max-width: 300px;
+    height: auto;
+}
 
 
 table{
     width:100%;
-    margin-top:30px;
+    margin-top:60px;
     text-align:center;
     border-collapse: collapse;
     border: solid 2px pink;
@@ -281,35 +235,14 @@ table th {
 table td {
     padding: 12px 10px;
     color:rgb(201, 47, 47);
-    background: #ebebeb;
+    background: #ffffff;
 }
-.oni-img{
-    width: 28vw;
-    height: auto;
+.sub{
+    font-size:16px;
+    padding: 12px 10px;
+    color:rgb(201, 47, 47);
+    background: #ffffff;
 }
-
-.box {
-    float: left;
-    width: 300px;
-    height: auto;
-    margin-top: 16px;
-    margin-right: 30px;
-    margin-bottom: 4px;
-    background: rgb(136, 160, 204);
-    border: 2px solid rgb(175, 57, 57);
-    border-radius: 5px;
-    padding: 0.3em;
-    padding-top: 0.6em;
-}
-.content{
-    padding-top: 80px;
-}
-.box img{
-    max-width: 300px;
-    height: auto;
-}
-
-
 #page-top {
     position: fixed;
     bottom: 20px;
@@ -336,5 +269,12 @@ table td {
   }
 
   @media screen and (max-width: 767px){
-
+    .box{
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        margin-right: 10px;
+    }
   }
