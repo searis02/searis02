@@ -14,6 +14,12 @@ a{
     text-decoration: none;
     color: rgb(223, 129, 7);
 }
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 header{
     font-weight: 700;
     width: 100%;
@@ -111,6 +117,44 @@ footer {
     margin-bottom:40px;
 }
 
+.section1 .container{
+    width: 90%;
+    height: auto;
+    max-width: 1680px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+  }
+  .section1 .row{
+  }
+  .section1 .col{
+      display: flex;
+      padding: 8px;
+  }
+  .section1 ul{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 0 auto;
+  }
+  .section1 li{
+      width: 33%;
+      padding: 20px 0;
+      margin-bottom: 1%;
+      background-color:#ffdada;
+  }
+  .section1 a{
+    font-weight: bold;
+    color:#5ccbe7;
+  }
+  .section1 hr{
+    border: solid 3px #9c62df;
+    margin-bottom:12px;
+    width: 40vw;
+  }
 
 .section2{
     margin-bottom: 45px;
@@ -172,6 +216,16 @@ footer {
     width: 146px;
     margin: 0 auto;
   }
+  .section2 .bone{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .section2 .banner{
+    border: solid 3px #9c62df;
+    margin-bottom:12px;
+    width: 40vw;
+  }
   .section2 .text{
     font-size: px;
     line-height: 1.5;
@@ -215,7 +269,26 @@ footer {
     max-width: 300px;
     height: auto;
 }
-
+.section8 .row{
+  display: flex;
+}
+.section8 .col{
+  width:48%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lime;
+}
+.section8 h2{
+  font-weight: 700;
+  margin-bottom:16px;
+  text-align: center;
+}
+.section8 hr{
+  border: solid 3px #9c62df;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  width: 40vw;
+}
 
 table{
     width:100%;
@@ -276,5 +349,10 @@ table td {
         margin-top: 10px;
         margin-bottom: 12px;
         margin-right: 10px;
+    }
+    .section1 li{
+        width: 46%;
+        font-size: 16px;
+        font-weight: bold;
     }
   }

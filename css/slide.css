@@ -37,11 +37,16 @@ ul,li {
       width: 100%;
       margin-bottom: 30px;
   }
+  .slider-3{
+    max-height: 780px;
+    background-color: lime;
+  }
   .slider-3 .slick-slide .slide-img{
     aspect-ratio: 9/19.5;
     max-height: 80vh;
     max-width: 90vw;
   }
+  
 }
 
 /*
