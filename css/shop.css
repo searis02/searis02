@@ -71,6 +71,19 @@ footer {
     margin: auto;
     display: block;
 }
+.shop{
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
+.shop-2{
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 6em;
+}
 
 .stgrtop{
     max-width:1280px;
@@ -269,19 +282,61 @@ footer {
     max-width: 300px;
     height: auto;
 }
+.section4{
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+.section4 .container{
+    max-width:1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+.section4 h2{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section4 hr{
+  border: solid 3px #9c62df;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  width: 40vw;
+}
+.section4 ul{
+    list-style: none;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.section4 li{
+    border: solid 1px #851111;
+    margin-bottom: 20px;
+    padding: 16px 24px;
+    background-color:rgb(250, 243, 235);
+}
+.section4 .date{
+    color: #d80000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.section8 .container{
+}
 .section8 .row{
   display: flex;
+  width: 90%;
 }
 .section8 .col{
   width:48%;
   margin: 0 auto;
   text-align: center;
-  background-color: lime;
 }
 .section8 h2{
   font-weight: 700;
   margin-bottom:16px;
   text-align: center;
+}
+.section8 p{
+  line-height: 54px;
 }
 .section8 hr{
   border: solid 3px #9c62df;
@@ -289,6 +344,7 @@ footer {
   margin-bottom: 32px;
   width: 40vw;
 }
+
 
 table{
     width:100%;
@@ -354,5 +410,17 @@ table td {
         width: 46%;
         font-size: 16px;
         font-weight: bold;
+    }
+    .section4{
+        width:100%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .section4 .container{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section4 ul{
+        transform: translateX(-20px)
     }
   }
