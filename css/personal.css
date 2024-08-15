@@ -45,6 +45,9 @@ header ul li{
     font-size: 14px;
     letter-spacing: 1px;
 } 
+header .a a{
+    color: rgb(174, 214, 214);
+}
 footer {
     width: 100%;
     text-align: center;
@@ -78,7 +81,7 @@ iframe{
     top: 0;
     left: 0;
     z-index: 1;
-    transform: translateY(70px);
+    transform: translateY(2.5em);
 }
 .section1 .container{
     width: 90%;
